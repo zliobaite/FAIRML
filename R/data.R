@@ -1,4 +1,4 @@
-#' salaries
+#' salary
 #'
 #' Salaries of professors at a US college.
 #'
@@ -13,4 +13,18 @@
 #'
 #' Obtained from \url{http://data.princeton.edu/wws509/datasets/\#salary}
 #'
-"salaries"
+"salary"
+
+#' toyr
+#'
+#' A toy dataset for regression generated as sal = 1000 + 100*edu - 500*etn
+#'
+#' @format A data frame with 10 observations and three variables:
+#' \describe{
+#' \item{\code{education}}{presumaby in years}
+#' \item{\code{ethnicity}}{presumably 1 means foreigner (deprived), 0 - native}
+#' \item{\code{salary}}{presumed monthly salary}
+#' }
+#'
+#'
+"toyr"
