@@ -1,8 +1,8 @@
 Package: FAIRML
-Title: Non-Discriminatory Machine Learning
+Title: Fairness-aware machine learning methods
 Version: 0.0.0.9000
 Authors@R: person("Indre", "Zliobaite", email = "zliobaite@gmail.com", role = c("aut", "cre"))
-Description: Methods for measuring discrimination in data, in predictive models, and sanitizing predictive models such that decisions supported by model predictions (e.g. interest rates for loans) are not discriminatory with respect to externally given protected characteristics (e.g. age, race, gender).
-Depends: R (>= 3.2.1)
+Description: Methods for measuring discrimination in data, measuring discrimination due to  algorithms (decision rules), and sanitizing algorithms such that decisions supported by model predictions (e.g. interest rates for loans) are not discriminatory with respect to externally given protected characteristics (e.g. age, race, gender).
+Depends: R (>= 3.2.2)
 License: MIT
 LazyData: true
